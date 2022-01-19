@@ -1,89 +1,54 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.frame{
-    /* border: 3px black solid; */
-    width: 1000px;
-    height: 800px;
-    margin: auto;
-    position: relative;
+section {
+  /* border: 3px black solid; */
+  width: 1000px;
+  height: 800px;
+  margin: auto;
+  position: relative;
 }
-.frame h1 {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 40px;
-    transform: rotate(-40deg);
-    color: chocolate;
-
+section h1 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 40px;
+  transform: rotate(-40deg);
+  color: chocolate;
 }
-
-.pic1 img{
-    width: 300px;
-    height: 300px;
-    border: 2px solid black;
-    padding: 10px 10px 50px 10px;
-    position: absolute;
-    top:25rem;
-    left: 6rem;
-    filter: grayscale();
-    transform: rotate(40deg);
-    opacity: 0.7;
-    transition: 0.7s all ease;
-    cursor: pointer;
-
+div img {
+  width: 300px;
+  height: 300px;
+  border: 2px solid black;
+  padding: 10px 10px 50px 10px;
+  position: absolute;
+  filter: grayscale();
+  transform: rotate(40deg);
+  opacity: 0.7;
+  transition: 0.7s all ease;
+  cursor: pointer;
 }
-.pic2 img{
-    width: 300px;
-    height: 300px;
-    border: 2px solid black;
-    padding: 10px 10px 50px 10px;
-    position: absolute;
-    top: 20rem;
-    left: 15rem;
-    filter: grayscale();
-    transform: rotate(40deg);
-    opacity: 0.7;
-    transition: 0.7s all ease;
-    cursor: pointer;
+div:nth-child(1) img {
+  top: 25rem;
+  left: 6rem;
 }
-.pic3 img{
-    width: 300px;
-    height: 300px;
-    border: 2px solid black;
-    padding: 10px 10px 50px 10px;
-    position: absolute;
-    top: 15rem;
-    left: 27rem;
-    filter: grayscale();
-    transform: rotate(40deg);
-    opacity: 0.7;
-    transition: 0.7s all ease;
-    cursor: pointer;
-
+div:nth-child(2) img {
+  top: 20rem;
+  left: 15rem;
 }
-.pic4 img{
-    width: 300px;
-    height: 300px;
-    border: 2px solid black;
-    padding: 10px 10px 50px 10px;
-    position: absolute;
-    top: 7rem;
-    left: 38rem;
-    filter: grayscale();
-    transform: rotate(40deg);
-    opacity: 0.7;
-    transition: 0.7s all ease;
-    cursor: pointer;
-
+div:nth-child(3) img {
+  top: 15rem;
+  left: 27rem;
 }
-
-.pic img:hover{
-    transform: rotate(0);
-    filter: none;
-    opacity: 1;
-    z-index: 1;
-    transform: scale(1.5);
-    
+div:nth-child(4) img {
+  top: 7rem;
+  left: 38rem;
+}
+div img:hover {
+  transform: rotate(0);
+  filter: none;
+  opacity: 1;
+  z-index: 1;
+  transform: scale(1.5);
 }
