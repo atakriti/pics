@@ -1,1 +1,1 @@
-# Pics
+# Pics gallery exercise
