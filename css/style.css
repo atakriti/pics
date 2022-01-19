@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.frame{
+    border: 3px black solid;
+    width: 1000px;
+    height: 800px;
+    margin: auto;
+    position: relative;
+}
+/* .pic1{
+    background-image: url("../img/pic1.jpg");
+    width: 300px;
+    height: 300px;
+    border: 2px black solid;
+    padding: 20px;
+} */
+.pic1 img{
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    padding: 10px 10px 50px 10px;
+    position: absolute;
+    top:25rem;
+    left: 6rem;
+    filter: grayscale();
+    transform: rotate(40deg);
+    opacity: 0.7;
+    transition: 0.7s all ease;
+    cursor: pointer;
+
+}
+.pic2 img{
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    padding: 10px 10px 50px 10px;
+    position: absolute;
+    top: 20rem;
+    left: 15rem;
+    filter: grayscale();
+    transform: rotate(40deg);
+    opacity: 0.7;
+    transition: 0.7s all ease;
+    cursor: pointer;
+}
+.pic3 img{
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    padding: 10px 10px 50px 10px;
+    position: absolute;
+    top: 15rem;
+    left: 27rem;
+    filter: grayscale();
+    transform: rotate(40deg);
+    opacity: 0.7;
+    transition: 0.7s all ease;
+    cursor: pointer;
+
+}
+.pic4 img{
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    padding: 10px 10px 50px 10px;
+    position: absolute;
+    top: 7rem;
+    left: 38rem;
+    filter: grayscale();
+    transform: rotate(40deg);
+    opacity: 0.7;
+    transition: 0.7s all ease;
+    cursor: pointer;
+
+}
+
+.pic img:hover{
+    transform: rotate(0);
+    filter: none;
+    opacity: 1;
+    z-index: 1;
+    transform: scale(1.5);
+    
+}
