@@ -11,6 +11,13 @@
     margin: auto;
     position: relative;
 }
+.frame h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    transform: rotate(-40deg);
+    color: chocolate;
+
+}
 
 .pic1 img{
     width: 300px;
