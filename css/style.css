@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 .frame{
     border: 3px black solid;
     width: 1000px;
